@@ -1,14 +1,14 @@
 # NLP-Sentiment Analysis 
 
-## Overview
+## 📝Overview
 This project's goal is to build an Natural Language Processing model to analyze tweets' sentiments about Apple and Google products from Twitter, now X, and rate them as either positive, negatve or neutral.
 The data comes from CrowdFlower via [data.world](https://data.world/crowdflower/brands-and-product-emotions) and contains over 9000 tweets.
 
-## Business Understanding
+## 💡Business Understanding
 In the recent years, the global smartphone market remained highly competitive, with major brands such as Apple and Google continuing to dominate innovation and customer engagement discussions online. However, third-party tech distributors, who rely on these brands' public image to drive sales, often lack accessible tools to automatically analyze global customer sentiment. This limitation makes it difficult for them to gauge market trends, anticipate product reception, or adjust inventory and marketing strategies in real time.
 By performing sentiment analysis on tweets related to Apple and Google products, this project aims to provide real-time insights into how consumers perceive these brands, enabling distributors to make data-driven decisions that align with evolving market sentiments.
 
-## Data Understanding
+## 🔍Data Understanding
 **Source of data:** The dataset is sourced from CrowdFlower Brands and Product Emotions via [data.world](https://data.world/crowdflower/brands-and-product-emotions) and contains over 9000 tweets.
 **Structure of the dataset:**
 1. Total Records: 9,093 tweets
@@ -20,17 +20,17 @@ By performing sentiment analysis on tweets related to Apple and Google products,
 4. Missing Values: Some Tweets do not specify a brand or product under emotion_in_tweet_is directed_at
 5. Data Type: All features are stored as object type.
 
-## Visualizations
+## 📊Visualizations
 ### 1. Tweets by Brand
 This bar plot shows the sum of tweets by parent brand : Apple and Google.
-![Distribution of tweets by brand](Images/Tweet by Parent Brand.png)
+![Distribution of tweets by brand](Images/Tweet%20by%20Parent%20Brand.png) 
 ### 2. Sentiment Distribution by Brand
 This stacked bar plot shows the distribution of sentiments towards the brands.
-![Distribution of sentiments by brand](Images/Sentiment Distribution.png)
+![Distribution of sentiments by brand](Images/Sentiment%20Distribution.png)
 
-## Conclusions & Recommendations
+## 🏆Conclusions & Recommendations
 
-## How to run the project
+## 💻How to run the project
 To run this project, you'll need a Python environment with the required libraries.
 ### 1. clone the repository
 ```bash
