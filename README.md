@@ -20,14 +20,6 @@ By performing sentiment analysis on tweets related to Apple and Google products,
 4. Missing Values: Some Tweets do not specify a brand or product under emotion_in_tweet_is directed_at
 5. Data Type: All features are stored as object type.
 
-## 📊Visualizations
-### 1. Tweets by Brand
-This bar plot shows the sum of tweets by parent brand : Apple and Google.
-![Distribution of tweets by brand](Images/Tweet%20by%20Parent%20Brand.png) 
-### 2. Sentiment Distribution by Brand
-This stacked bar plot shows the distribution of sentiments towards the brands.
-![Distribution of sentiments by brand](Images/Sentiment%20Distribution.png)
-
 ## 🏆Conclusions & Recommendations
 
 ## 💻How to run the project
