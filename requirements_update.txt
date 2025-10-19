@@ -1,0 +1,8 @@
+streamlit==1.50.0
+torch==2.2.1+cpu
+transformers==4.57.0
+pandas==2.3.3
+wandb==0.22.2
+numpy==1.25.2
+matplotlib==3.10.7
+tqdm==4.67.1
