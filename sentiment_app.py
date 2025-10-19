@@ -100,7 +100,7 @@ if uploaded_file:
 
         st.success(f"Loaded {len(df)} tweets after filtering.")
 
-        st.subheader("🚀 Running Predictions")
+        st.subheader("🔮 Running Predictions")
         preds_bin, probs_neg = batch_predict_binary(df["text"].tolist(), batch_size=16)
         df["binary_label"] = preds_bin
         df["negative_prob"] = probs_neg
