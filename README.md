@@ -20,7 +20,27 @@ By performing sentiment analysis on tweets related to Apple and Google products,
 4. Missing Values: Some Tweets do not specify a brand or product under emotion_in_tweet_is directed_at
 5. Data Type: All features are stored as object type.
 
-## 🏆Conclusions & Recommendations
+## 🏆Conclusions
+### Top Mentioned Products:
+- **iPad** (946 mentions) - Mostly positive, strong market interest
+- **Apple Brand** (661 mentions) - General positive brand sentiment
+- **iPad/iPhone Apps** (470 mentions) - Mixed feedback on app ecosystem
+- **Google** (430 mentions) - Neutral to positive
+- **iPhone** (297 mentions) - Positive sentiment
+### Common Themes in Negative Tweets:
+- Product performance issues (crashes, battery life)
+- Pricing concerns
+- App functionality problems
+- Service/support complaints
+
+**Actionable Insight:** Stock products with consistently positive sentiment; create targeted promotions for products with negative feedback to move inventory.
+
+
+## ⌛Recommendations
+- Combine with other data: Use sentiment analysis alongside sales data, supplier feedback, and traditional market research.
+- Human verification: For critical business decisions, have team members verify high-stakes negative alerts.
+- Regular updates: Retrain model quarterly with new tweet data to maintain accuracy.
+
 
 ## 💻How to run the project
 To run this project, you'll need a Python environment with the required libraries.
